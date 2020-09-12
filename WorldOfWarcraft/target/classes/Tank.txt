@@ -1,5 +1,0 @@
-Monk=Monk
-Warrior=Warrior
-Paladin=Paladin
-Death Knight=Death Knight
-Druid=Druid

@@ -1,5 +1,0 @@
-Monk=Monk
-Priest=Priest
-Paladin=Paladin
-Druid=Druid
-Shaman=Shaman

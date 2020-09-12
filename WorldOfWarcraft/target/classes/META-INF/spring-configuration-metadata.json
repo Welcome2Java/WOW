@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "dps.class",
+      "type": "com.project.wow.dpsDAO.DpsDAO",
+      "sourceType": "com.project.wow.dpsDAO.DpsDAO"
+    },
+    {
+      "name": "heal.class",
+      "type": "com.project.wow.healDAO.HealDAO",
+      "sourceType": "com.project.wow.healDAO.HealDAO"
+    },
+    {
+      "name": "tank.class",
+      "type": "com.project.wow.tankDAO.TankDAO",
+      "sourceType": "com.project.wow.tankDAO.TankDAO"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dps.class.dps-class-options-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>",
+      "sourceType": "com.project.wow.dpsDAO.DpsDAO"
+    },
+    {
+      "name": "dps.class.dps-classes",
+      "type": "java.lang.String[]",
+      "sourceType": "com.project.wow.dpsDAO.DpsDAO"
+    },
+    {
+      "name": "heal.class.heal-classes",
+      "type": "java.lang.String[]",
+      "sourceType": "com.project.wow.healDAO.HealDAO"
+    },
+    {
+      "name": "heal.class.healing-class-options-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>",
+      "sourceType": "com.project.wow.healDAO.HealDAO"
+    },
+    {
+      "name": "tank.class.tank-classes",
+      "type": "java.lang.String[]",
+      "sourceType": "com.project.wow.tankDAO.TankDAO"
+    },
+    {
+      "name": "tank.class.tanking-class-options-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>",
+      "sourceType": "com.project.wow.tankDAO.TankDAO"
+    }
+  ],
+  "hints": []
+}
