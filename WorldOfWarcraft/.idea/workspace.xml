@@ -23,19 +23,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77aded99-4c15-4fa7-9941-fa61b17eccb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/WowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/WowApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/DPS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Healer.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Tank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/dpsController/DpsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/controllers/dpsController/DpsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/dpsDAO/DpsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/dao/dpsDAO/DpsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/dpsUtils/DpsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/fileWrite/FileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/fileWrite/FileWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/healController/HealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/controllers/healController/HealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/healDAO/HealDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/dao/healDAO/HealDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/healUtils/HealUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/homeController/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/controllers/homeController/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/mainmenuController/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/controllers/mainmenuController/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/payload/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/payload/Payload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/tankController/TankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/controllers/tankController/TankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/tankDAO/TankDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/wow/dao/tankDAO/TankDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/wow/tankUtils/TankUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MainMenu/mainMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MainMenu/mainMenu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DPS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Healer.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tank.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/WowApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/wow/WowApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/DPS/HeaderFooter/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/DPS/HeaderFooter/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/DPS/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/DPS/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Heal/HeaderFooter/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Heal/HeaderFooter/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Heal/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Heal/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Tank/HeaderFooter/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Tank/HeaderFooter/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Tank/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Tank/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/dpsController/DpsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/dpsDAO/DpsDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/dpsUtils/DpsUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/fileWrite/FileWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/wow/fileWrite/FileWrite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/healController/HealController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/healDAO/HealDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/healUtils/HealUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/homeController/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/mainmenuController/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/tankController/TankController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/tankDAO/TankDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/wow/tankUtils/TankUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wow.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +69,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JupyterTrust" id="5f5c9970-a264-43c4-8bba-167aa4bd87d0" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -78,21 +103,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\images" />
-      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\Heal\HeaderFooter" />
-      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\Heal" />
-      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp" />
-      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\Heal\images" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.project.wow" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.project.wow.dpsUtils" />
-      <recent name="com.project.wow.tankUtils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\DPS" />
@@ -100,8 +117,93 @@
       <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\images" />
       <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\Heal\HeaderFooter" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.project.wow.dpsUtils" />
+      <recent name="com.project.wow.tankUtils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\images" />
+      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\Heal\HeaderFooter" />
+      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\Heal" />
+      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp" />
+      <recent name="C:\Users\jonat\Desktop\Projects\WOW\WorldOfWarcraft\src\main\webapp\WEB-INF\jsp\Heal\images" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UtilsHelperTddTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsHelperTddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.wow.WowUtilsHelperTddTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.wow.WowUtilsHelperTddTest" />
+      <option name="MAIN_CLASS_NAME" value="com.project.wow.WowUtilsHelperTddTest.UtilsHelperTddTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsHelperTddTest.getSpecForChosenClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.wow.WowUtilsHelperTddTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.wow.WowUtilsHelperTddTest" />
+      <option name="MAIN_CLASS_NAME" value="com.project.wow.WowUtilsHelperTddTest.UtilsHelperTddTest" />
+      <option name="METHOD_NAME" value="getSpecForChosenClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsHelperTddTest.populateClassSpecMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.wow.WowUtilsHelperTddTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.wow.WowUtilsHelperTddTest" />
+      <option name="MAIN_CLASS_NAME" value="com.project.wow.WowUtilsHelperTddTest.UtilsHelperTddTest" />
+      <option name="METHOD_NAME" value="populateClassSpecMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsHelperTddTest.randomNumberShouldReturnWithinGivenRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.wow.WowUtilsHelperTddTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.wow.WowUtilsHelperTddTest" />
+      <option name="MAIN_CLASS_NAME" value="com.project.wow.WowUtilsHelperTddTest.UtilsHelperTddTest" />
+      <option name="METHOD_NAME" value="randomNumberShouldReturnWithinGivenRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="wow" />
       <extension name="coverage">
@@ -117,7 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilsHelperTddTest" />
+        <item itemvalue="JUnit.UtilsHelperTddTest.getSpecForChosenClass" />
+        <item itemvalue="JUnit.UtilsHelperTddTest.populateClassSpecMap" />
         <item itemvalue="Spring Boot.WowApplication" />
+        <item itemvalue="JUnit.UtilsHelperTddTest.randomNumberShouldReturnWithinGivenRange" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +250,12 @@
       <workItem from="1599689501955" duration="2305000" />
       <workItem from="1599845178405" duration="5200000" />
       <workItem from="1599930730857" duration="1572000" />
-      <workItem from="1599932384345" duration="53000" />
+      <workItem from="1599932384345" duration="441000" />
+      <workItem from="1599938736685" duration="619000" />
+      <workItem from="1601841270684" duration="1265000" />
+      <workItem from="1603165027635" duration="170000" />
+      <workItem from="1603165240797" duration="1758000" />
+      <workItem from="1603516313291" duration="9034000" />
     </task>
     <servers />
   </component>
@@ -164,22 +275,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="182" width="1112" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599410490059">
+    <state x="880" y="91" key="#Project_Structure" timestamp="1603517534693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="570" y="182" width="1112" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599410490059" />
-    <state x="731" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599337420421">
+    <state x="880" y="91" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603517534693" />
+    <state x="570" y="182" width="1112" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603165710582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599337420421" />
-    <state x="763" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1599931317593">
+    <state x="570" y="182" width="1112" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603165710582" />
+    <state x="731" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603517790500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599931317593" />
-    <state x="777" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599404935997">
+    <state x="731" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603517790500" />
+    <state x="763" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1603521102122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599404935997" />
+    <state x="763" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603521102122" />
+    <state x="777" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603516605365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603516605365" />
     <state x="933" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599404937475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,69 +307,102 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="846" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599409922429" />
+    <state x="1195" y="220" key="#xdebugger.evaluate" timestamp="1603519818760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1195" y="220" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1603519818760" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1599424362340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599424362340" />
-    <state width="1306" height="182" key="GridCell.Tab.0.bottom" timestamp="1599932307935">
+    <state width="1512" height="329" key="GridCell.Tab.0.bottom" timestamp="1603525398111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="182" key="GridCell.Tab.0.center" timestamp="1599932307935">
+    <state width="1512" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398111" />
+    <state width="1512" height="329" key="GridCell.Tab.0.center" timestamp="1603525398111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="182" key="GridCell.Tab.0.left" timestamp="1599932307935">
+    <state width="1512" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398111" />
+    <state width="1512" height="329" key="GridCell.Tab.0.left" timestamp="1603525398111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="182" key="GridCell.Tab.0.right" timestamp="1599932307935">
+    <state width="1512" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398111" />
+    <state width="1512" height="329" key="GridCell.Tab.0.right" timestamp="1603525398111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="182" key="GridCell.Tab.1.bottom" timestamp="1599932307935">
+    <state width="1512" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398111" />
+    <state width="1512" height="341" key="GridCell.Tab.1.bottom" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="182" key="GridCell.Tab.1.center" timestamp="1599932307935">
+    <state width="1512" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
+    <state width="1512" height="341" key="GridCell.Tab.1.center" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="182" key="GridCell.Tab.1.left" timestamp="1599932307935">
+    <state width="1512" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
+    <state width="1512" height="341" key="GridCell.Tab.1.left" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="182" key="GridCell.Tab.1.right" timestamp="1599932307935">
+    <state width="1512" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
+    <state width="1512" height="341" key="GridCell.Tab.1.right" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="182" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599932307935" />
-    <state width="1306" height="343" key="GridCell.Tab.2.bottom" timestamp="1599926258076">
+    <state width="1512" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
+    <state width="1512" height="341" key="GridCell.Tab.2.bottom" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="343" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599926258076" />
-    <state width="1306" height="343" key="GridCell.Tab.2.center" timestamp="1599926258076">
+    <state width="1512" height="341" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
+    <state width="1512" height="341" key="GridCell.Tab.2.center" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="343" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599926258076" />
-    <state width="1306" height="343" key="GridCell.Tab.2.left" timestamp="1599926258076">
+    <state width="1512" height="341" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
+    <state width="1512" height="341" key="GridCell.Tab.2.left" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="343" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599926258076" />
-    <state width="1306" height="343" key="GridCell.Tab.2.right" timestamp="1599926258076">
+    <state width="1512" height="341" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
+    <state width="1512" height="341" key="GridCell.Tab.2.right" timestamp="1603525398099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="343" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599926258076" />
+    <state width="1512" height="341" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603525398099" />
     <state x="776" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599336401082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599336401082" />
+    <state x="510" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603166766123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="510" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1603166766123" />
     <state x="322" y="184" key="new project wizard" timestamp="1599424475293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="322" y="184" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1599424475293" />
+    <state x="1190" y="274" key="refactoring.ChangeSignatureDialog" timestamp="1603521944033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1190" y="274" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603521944033" />
     <state x="621" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1599869198970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="621" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599869198970" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/wow/controllers/dpsController/DpsController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/wow/UtilsHelper/WowUtilsHelper.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/wow/controllers/dpsController/DpsController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

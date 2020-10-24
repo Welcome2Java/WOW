@@ -1,7 +1,7 @@
 <html>
 <head>
-    <header style="text-align: center">Project 1</header>
-    <title>World Of Warcraft Random Class Geneator</title>
+    <header style="text-align: center">World Of Warcraft Random Class Geneator</header>
+
 
 </head>
 <body>

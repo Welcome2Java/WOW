@@ -2,50 +2,50 @@
   "groups": [
     {
       "name": "dps.class",
-      "type": "com.project.wow.dpsDAO.DpsDAO",
-      "sourceType": "com.project.wow.dpsDAO.DpsDAO"
+      "type": "com.project.wow.dao.dpsDAO.DpsDAO",
+      "sourceType": "com.project.wow.dao.dpsDAO.DpsDAO"
     },
     {
       "name": "heal.class",
-      "type": "com.project.wow.healDAO.HealDAO",
-      "sourceType": "com.project.wow.healDAO.HealDAO"
+      "type": "com.project.wow.dao.healDAO.HealDAO",
+      "sourceType": "com.project.wow.dao.healDAO.HealDAO"
     },
     {
       "name": "tank.class",
-      "type": "com.project.wow.tankDAO.TankDAO",
-      "sourceType": "com.project.wow.tankDAO.TankDAO"
+      "type": "com.project.wow.dao.tankDAO.TankDAO",
+      "sourceType": "com.project.wow.dao.tankDAO.TankDAO"
     }
   ],
   "properties": [
     {
       "name": "dps.class.dps-class-options-map",
       "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>",
-      "sourceType": "com.project.wow.dpsDAO.DpsDAO"
+      "sourceType": "com.project.wow.dao.dpsDAO.DpsDAO"
     },
     {
       "name": "dps.class.dps-classes",
       "type": "java.lang.String[]",
-      "sourceType": "com.project.wow.dpsDAO.DpsDAO"
+      "sourceType": "com.project.wow.dao.dpsDAO.DpsDAO"
     },
     {
       "name": "heal.class.heal-classes",
       "type": "java.lang.String[]",
-      "sourceType": "com.project.wow.healDAO.HealDAO"
+      "sourceType": "com.project.wow.dao.healDAO.HealDAO"
     },
     {
       "name": "heal.class.healing-class-options-map",
       "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>",
-      "sourceType": "com.project.wow.healDAO.HealDAO"
+      "sourceType": "com.project.wow.dao.healDAO.HealDAO"
     },
     {
       "name": "tank.class.tank-classes",
       "type": "java.lang.String[]",
-      "sourceType": "com.project.wow.tankDAO.TankDAO"
+      "sourceType": "com.project.wow.dao.tankDAO.TankDAO"
     },
     {
       "name": "tank.class.tanking-class-options-map",
       "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>",
-      "sourceType": "com.project.wow.tankDAO.TankDAO"
+      "sourceType": "com.project.wow.dao.tankDAO.TankDAO"
     }
   ],
   "hints": []

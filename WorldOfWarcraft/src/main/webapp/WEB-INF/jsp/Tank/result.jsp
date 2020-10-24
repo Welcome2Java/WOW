@@ -6,7 +6,7 @@
 <%@include file="HeaderFooter/Header.jsp"%>
 
 <h1 style="text-align: center">Tank</h1>
-<h1 style="text-align: center">${chosenPick}</h1>
+<h1 style="text-align: center">${chosenSpec} ${chosenPick}</h1>
 <c:choose>
     <c:when test="${chosenPick == 'Warrior'}">
         <a href="https://worldofwarcraft.com/en-us/character/us/grizzly-hills/breathon">Warrior</a>
@@ -17,13 +17,13 @@
     <c:when test="${chosenPick == 'Druid'}">
         <a href="https://worldofwarcraft.com/en-us/character/us/grizzly-hills/gington">Druid</a>
     </c:when>
-    <c:when test="${chosenPick == 'DemonHunter'}">
+    <c:when test="${chosenPick == 'Demon Hunter'}">
         <a href="https://worldofwarcraft.com/en-us/character/us/grizzly-hills/tyria">Demon Hunter</a>
     </c:when>
     <c:when test="${chosenPick == 'Monk'}">
         <a href="https://worldofwarcraft.com/en-us/character/us/grizzly-hills/andira">Monk</a>
     </c:when>
-    <c:when test="${chosenPick == 'DeathKnight'}">
+    <c:when test="${chosenPick == 'Death Knight'}">
         <a href="https://worldofwarcraft.com/en-us/character/us/grizzly-hills/moraxes">Death Knight</a>
     </c:when>
     <c:otherwise>

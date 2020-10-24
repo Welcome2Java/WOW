@@ -6,7 +6,7 @@
 <%@include file="HeaderFooter/Header.jsp"%>
 
 <h1 style="text-align: center">Heal</h1>
-<h1 style="text-align: center">${chosenPick}</h1>
+<h1 style="text-align: center">${chosenSpec} ${chosenPick}</h1>
 <c:choose>
     <c:when test="${chosenPick == 'Shaman'}">
         <a href="https://worldofwarcraft.com/en-us/character/us/grizzly-hills/katychyli">Shaman</a>

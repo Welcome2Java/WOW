@@ -6,14 +6,12 @@ public class Payload {
 
     String role;
     String classPick;
-    String month;
-    String day;
-    String year;
-    LocalDateTime localDateTime;
+    String spec;
 
-    public Payload(String role, String classPick) {
+    public Payload(String role, String classPick, String spec) {
         this.role=role;
         this.classPick=classPick;
+        this.spec = spec;
     }
 
     public String getRole() {
@@ -22,6 +20,10 @@ public class Payload {
 
     public String getClassPick() {
         return classPick;
+    }
+
+    public String getSpec(){
+        return spec;
     }
     
 }
